@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      * {
+        font-family: "Noto Sans KR", sans-serif;
+      }
+
+      input::placeholder {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="form_background">
+      <h1 class="txt">회원 가입</h1>
+      <div class="membership-form">
+        <form>
+          <div class="int-area">
+            <div class="int_txt">이름</div>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              autocomplete="on"
+              autofocus="on"
+              required
+            />
+          </div>
+          <br />
+          <div class="int-area">
+            <div class="int_txt">닉네임</div>
+            <input
+              type="text"
+              name="nickname"
+              id="nickname"
+              autocomplete="on"
+              required
+            />
+          </div>
+          <br />
+          <div class="int-area">
+            <div class="int_txt">이메일</div>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              autocomplete="on"
+              required
+            />
+          </div>
+          <br />
+          <div class="int-area">
+            <div class="int_txt">비밀번호</div>
+            <input type="password" name="pw" id="pw" required />
+          </div>
+          <br />
+          <div class="int_txt">비밀번호 확인</div>
+          <div class="int-area">
+            <input type="password" name="check_pw" id="check_pw" required />
+          </div>
+          <br />
+          <div class="btn-area">
+            <button type="submit">가입하기</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
