@@ -53,4 +53,5 @@ yarn start
 --- 
 ### 6. Reactnative 를 이용한 계산기 구현 (Reactnative)
 ---
-- Reactnative
+- Reactnative를 활용하여 코드 구현
+- 어플리케이션 Expo Go를 이용하여 핸드폰에 계산기 앱 화면 띄우기
