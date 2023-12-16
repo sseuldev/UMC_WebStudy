@@ -49,3 +49,8 @@ yarn start
   - 로그인/로그아웃
   - 영화/TV 프로그램/인물 배너
   - 영화 포스터 클릭 시 상세 화면
+
+--- 
+### 6. Reactnative 를 이용한 계산기 구현 (Reactnative)
+---
+- Reactnative
