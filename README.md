@@ -32,3 +32,20 @@ yarn start
 ```
 
 ---
+### 4. 영화 앱 구현_1 (netflix-clonecoding)
+---
+- Component, JSX, Props를 활용하여 페이지 구현
+- Movie.jsx & App.js & index.css & index.js & movieDummy.js
+- API를 movieDummy.js에 받아오기 (by 클론코딩)
+- 받아온 데이터를 jsx 파일에서 export 하고 Props를 활용하여 앱 구현
+
+--- 
+### 5. 영화 앱 구현_2 (react-routing-demo)
+---
+- react-router-dom의 BrowseRouter, Routes, Route 컴포넌트 구성하기
+- Link 컴포넌트와 useNavigate Hook을 이용한 페이지 전환
+- 앱 기능
+  - 광고 보기/안보기
+  - 로그인/로그아웃
+  - 영화/TV 프로그램/인물 배너
+  - 영화 포스터 클릭 시 상세 화면
