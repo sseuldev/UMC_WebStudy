@@ -18,6 +18,7 @@ class LoginControl extends Component {
 
   render() {
     const isLoggedIn = this.state.isLoggedIn;
+
     let button;
 
     if (isLoggedIn) {
